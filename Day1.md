@@ -27,11 +27,11 @@
 We use the equal operator `=` to assign a value to the elements in the page.
 * ex. `document.title = "My Page"`     //will change the title of the page to My Page
 
-
-### ✍️Topic 3 ->
-
-### ✍️Topic 4 ->
-
+> ## Notes
+> - Document: Speciel built-in object that represent the whole page.
+> - MDN(Mozilla Developer Network) -> for reference end documentation.
+> - Difficults in JavaScript👎Validation / naming things / errors.
+> - Changes in Browser console will not be saved.
 
 ## Examples
 ```javascript
@@ -67,12 +67,6 @@ document.getElementById('p2-name').textContent = "Majd"   //will change the seco
 document.getElementById('p2-name').append(" & Sara")      //will add sara to the sacond player
 document.querySelector("header h2").append(" and love")   //will append "and love" to the second header  
 ```
-
-> ## Notes
-> - Document: Speciel built-in object that represent the whole page.
-> - MDN(Mozilla Developer Network) -> for reference end documentation.
-> - Difficults in JavaScript👎Validation / naming things / errors.
-> - Changes in Browser console will not be saved.
 
 
 ## Challenges
