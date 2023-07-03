@@ -52,9 +52,19 @@ const secondToLastLetterOfLastName = lastName[lastName.length-2]; // Change this
 
 
 ## Problem & My Solution
-- [problem]()
+- [problem](https://www.codewars.com/kata/564e7fc20f0b53eb02000106/train/javascript)
 ```javascript
+function consonantCount(str) {
+    let sum = 0;
+    str = str.toLowerCase();
 
+    for (let i = 0; i < str.length; i++) {
+        if (str[i]!='i' && str[i]!='o' && str[i]!='e' && str[i]!='a' && str[i]!='u' && str[i]>='a' && str[i]<='z') {
+            sum++;
+        }
+    }
+    return sum;
+}
 ```
 
 
