@@ -7,7 +7,7 @@
 - [x] Summarize what I learned
 
 ## Topics
-> ### Topic 1 -> Introdution to JavaScript
+✍️### Topic 1 -> Introdution to JavaScript
 - JavaScript is a dynamic programming language used usually in websites, so we can call it "programming language of the web".
 - Created in 1995 by Brendon Eich.
 - Used to modify and interact with HTML.
@@ -16,7 +16,7 @@
 2. Servers - Node.js
 3. Imbedded devices
                   
-> ### Topic 2 -> DOM (Document Object Model)
+✍️### Topic 2 -> DOM (Document Object Model)
 #### Finding elements in a web page 
 - document.title ==> represent the title of the page.
 - document.body.children ==> all elements inside the body.
@@ -28,7 +28,9 @@ We use the equal operator `=` to assign a value to the elements in the page.
 * ex. `document.title = "My Page"     //will change the title of the page to My Page`
 
 
-> ### Topic 3 ->
+✍️### Topic 3 ->
+
+✍️### Topic 4 ->
 
 
 ## Examples
@@ -66,11 +68,11 @@ document.getElementById('p2-name').append(" & Sara")      //will add sara to the
 document.querySelector("header h2").append(" and love")   //will append "and love" to the second header  
 ```
 
-## Notes
-- Document: Speciel built-in object that represent the whole page.
-- MDN(Mozilla Developer Network) -> for reference end documentation.
-- Difficults in JavaScript👎Validation / naming things / errors.
-- Changes in Browser console will not be saved.
+> ## Notes
+> - Document: Speciel built-in object that represent the whole page.
+> - MDN(Mozilla Developer Network) -> for reference end documentation.
+> - Difficults in JavaScript👎Validation / naming things / errors.
+> - Changes in Browser console will not be saved.
 
 
 ## Challenges
