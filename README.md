@@ -10,9 +10,25 @@ In this challenge, I will follow a guiding plan in order to improve my javaScrip
 - Objective: Developing my JavaScript skills through daily learning and practice.
 
 
-## Courses
-- [JavaScript: From First Steps to Professional](https://frontendmasters.com/courses/javascript-first-steps/)
-- [JavaScript: The Hard Parts, v2](https://frontendmasters.com/courses/javascript-hard-parts-v2/)
-- [Deep JavaScript Foundations, v3](https://frontendmasters.com/courses/deep-javascript-v3/)
+## Platforms
+- [Frontendmasters](https://frontendmasters.com/).
+- [Freecodecamp](https://www.freecodecamp.org/).
+- [Codewars](https://www.codewars.com/dashboard).
 
+
+## Courses
+- [JavaScript: From First Steps to Professional](https://frontendmasters.com/courses/javascript-first-steps/).
+- [JavaScript: The Hard Parts, v2](https://frontendmasters.com/courses/javascript-hard-parts-v2/).
+- [Deep JavaScript Foundations, v3](https://frontendmasters.com/courses/deep-javascript-v3/).
+
+
+## Daily Callenges
+1.  Watch 90 minutes of the assigned courses.
+2.  Solve all the JavaScript coding challenges that will be provided by the GSG team.
+3. Summarize daily learning on readme page.
+4. Solve one problem on Codewars.
+
+
+## Folder Structure
+1. [Day 1]()
 
