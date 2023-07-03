@@ -21,7 +21,7 @@
 - document.title ==> represent the title of the page.
 - document.body.children ==> all elements inside the body.
 - .length ==> how many things in (ex.class).
-- .textContent ==> the text element inside the selected one.
+- .textContent ==> the text element inside the selected container or element.
 
 #### Changing a web page
 We use the equal operator `=` to assign a value to the elements in the page.
