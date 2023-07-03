@@ -20,7 +20,7 @@
 ```
 
 
-## Challenges & Solutions
+## Challenges & MY Solutions
 1. [challenge 1]()
 ```javascript
 
@@ -38,7 +38,7 @@
 
 
 
-## Problem & Solution
+## Problem & My Solution
 - [problem]()
 ```javascript
 
