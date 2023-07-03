@@ -73,9 +73,10 @@ document.querySelector("header h2").append(" and love")   //will append "and lov
 - Changes in Browser console will not be saved.
 
 
-## Challenges & My Solutions
+## Challenges
 1. [challenge 1](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/compound-assignment-with-augmented-multiplication)
 ```javascript
+// my solution
 let a = 5;
 let b = 12;
 let c = 4.6;
@@ -88,6 +89,7 @@ c *= 10;
 
 2. [challenge 2](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/concatenating-strings-with-the-plus-equals-operator)
 ```javascript
+// my solution
 let myStr = "";
 
 myStr += "This is the first sentence. This is the second sentence.";
@@ -95,6 +97,7 @@ myStr += "This is the first sentence. This is the second sentence.";
 
 3. [challenge 3](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/use-bracket-notation-to-find-the-nth-to-last-character-in-a-string)
 ```javascript
+// my solution
 // Setup
 const lastName = "Lovelace";
 
@@ -104,9 +107,10 @@ const secondToLastLetterOfLastName = lastName[lastName.length-2]; // Change this
 
 
 
-## Problem & My Solution
+## Problem
 - [problem](https://www.codewars.com/kata/564e7fc20f0b53eb02000106/train/javascript)
 ```javascript
+// my solution
 function consonantCount(str) {
     let sum = 0;
     str = str.toLowerCase();
