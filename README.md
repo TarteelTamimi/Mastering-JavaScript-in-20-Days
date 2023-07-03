@@ -11,15 +11,15 @@ In this challenge, I will follow a guiding plan in order to improve my javaScrip
 
 
 ## Platforms
-- [Frontendmasters](https://frontendmasters.com/).
-- [Freecodecamp](https://www.freecodecamp.org/).
-- [Codewars](https://www.codewars.com/dashboard).
+- [Frontendmasters](https://frontendmasters.com/)
+- [Freecodecamp](https://www.freecodecamp.org/)
+- [Codewars](https://www.codewars.com/dashboard)
 
 
 ## Courses
-- [JavaScript: From First Steps to Professional](https://frontendmasters.com/courses/javascript-first-steps/).
-- [JavaScript: The Hard Parts, v2](https://frontendmasters.com/courses/javascript-hard-parts-v2/).
-- [Deep JavaScript Foundations, v3](https://frontendmasters.com/courses/deep-javascript-v3/).
+- [JavaScript: From First Steps to Professional](https://frontendmasters.com/courses/javascript-first-steps/)
+- [JavaScript: The Hard Parts, v2](https://frontendmasters.com/courses/javascript-hard-parts-v2/)
+- [Deep JavaScript Foundations, v3](https://frontendmasters.com/courses/deep-javascript-v3/)
 
 
 ## Daily Callenges
@@ -30,5 +30,5 @@ In this challenge, I will follow a guiding plan in order to improve my javaScrip
 
 
 ## Folder Structure
-1. [Day 1]()
+1. [Day 1](https://github.com/TarteelTamimi/Mastering-JavaScript-in-20-Days/blob/main/Day1.md)
 
