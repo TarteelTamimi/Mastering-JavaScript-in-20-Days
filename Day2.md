@@ -16,7 +16,6 @@ information (data) in javaScript can be of diffrent types:
 - null: deliberate nothing & its type is object.
 - others --we will learn about it later--
 
-> #### notes
 > - `typeof` tells us the type of value ex. `typeof true  //boolean`
 > - 4 != "4"
 > - data types in javaScript can be primitive (ex. string, number) or object (ex. document)
@@ -44,13 +43,33 @@ strings made of small units called characters
 > `===` (strict equals) is differ from `==` (loosey-goosey) in that `===` compare valuse and datatypes wgile `==` only compare values
 
 ## Challenges
-1. [challenge 1]()
+- [challenge 1](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/use-bracket-notation-to-find-the-nth-to-last-character-in-a-string)
 ```javascript
 // my solution
+// Setup
+const lastName = "Lovelace";
+
+// Only change code below this line
+const secondToLastLetterOfLastName = lastName[lastName.length-2]; // Change this line
 ```
 
+
 ## Problem
-- [problem]()
+- [problem](https://www.codewars.com/kata/56a1c074f87bc2201200002e/train/javascript)
 ```javascript
 // my solution
+function smaller(nums) {
+    const res = [];
+    let sum = 0;
+    for (let i=0; i<nums.length; i++) {
+        for (let j=i; j<nums.length; j++) {
+            if (nums[j]<nums[i]) {
+                sum ++;
+            }
+        }
+        res.push(sum);
+        sum = 0;
+    }
+    return res
+}
 ```
