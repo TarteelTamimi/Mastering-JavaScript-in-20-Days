@@ -24,17 +24,24 @@ information (data) in javaScript can be of diffrent types:
 ### ✍️Topic 2 -> strings 
 strings made of small units called characters
 > in string, characters are in specific order, each gets a number, starting at 0
+#### string methods 
+- .length: return a number represent how many characters in the string
+- .indexOf(): tell us what is the index of a specific character or what index does another string begin
+> if there are more than one character in the string, it will return the position of the first appearence
+> if the character or substring is not exist, it will return -1
+- .includes():check whether or not a string includes another string, it returns true/ false
+- .startsWith(): ask if string begins with some other string, it returns true/ false
+- and others
 
+### ✍️Topic 3 -> operators
+- `+` to add two numbers or concatinate two strings
+- `-` to subtract two numbers
+- `*` to multiply two numbers
+- `/` to divide one number by another
 
-> ## Notes
-> - 
-> - 
-> - 
-
-## Examples
-```javascript
-// my solution
-```
+### ✍️Topic 4 -> comparison operaters
+`>` `<` `>=` `<=` `==` `!=` `===` `!==`
+> `===` (strict equals) is differ from `==` (loosey-goosey) in that `===` compare valuse and datatypes wgile `==` only compare values
 
 ## Challenges
 1. [challenge 1]()
@@ -42,9 +49,6 @@ strings made of small units called characters
 // my solution
 ```
 
-1. [challenge 2]()
-```javascript
-```
 ## Problem
 - [problem]()
 ```javascript
