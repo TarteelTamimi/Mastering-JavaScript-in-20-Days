@@ -91,17 +91,6 @@ let myStr = "";
 myStr += "This is the first sentence. This is the second sentence.";
 ```
 
-3. [challenge 3](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/use-bracket-notation-to-find-the-nth-to-last-character-in-a-string)
-```javascript
-// my solution
-// Setup
-const lastName = "Lovelace";
-
-// Only change code below this line
-const secondToLastLetterOfLastName = lastName[lastName.length-2]; // Change this line
-```
-
-
 
 ## Problem
 - [problem](https://www.codewars.com/kata/564e7fc20f0b53eb02000106/train/javascript)
