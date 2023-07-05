@@ -3,7 +3,7 @@
 ## To-Do List for today
 - [ ] Watch 90-minutes of courses-Frontend Masters
 - [ ] Solve Challenges-Freecodecamp
-- [ ] Solve one problem-Codewars
+- [x] Solve one problem-Codewars
 - [ ] Summarize what I learned
 
 ## Topics
