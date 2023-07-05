@@ -32,4 +32,5 @@ In this challenge, I will follow a guiding plan in order to improve my javaScrip
 ## Folder Structure
 1. [Day 1](https://github.com/TarteelTamimi/Mastering-JavaScript-in-20-Days/blob/main/Day1.md)
 2. [Day 2](https://github.com/TarteelTamimi/Mastering-JavaScript-in-20-Days/blob/main/Day2.md)
+3. [Day 3](https://github.com/TarteelTamimi/Mastering-JavaScript-in-20-Days/blob/main/Day3.md)
 
