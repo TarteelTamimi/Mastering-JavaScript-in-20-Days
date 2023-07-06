@@ -4,7 +4,7 @@
 - [x] Watch 90-minutes of courses-Frontend Masters
 - [x] Solve Challenges-Freecodecamp
 - [x] Solve one problem-Codewars
-- [x] Summarize what I learned
+- [ ] Summarize what I learned
 
 ## Topics
 ### ✍️Topic 1 -> expressions & variables
