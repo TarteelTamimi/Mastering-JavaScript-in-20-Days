@@ -29,7 +29,14 @@
 - statements tell javaScript what to do, ex. `let ten = 6 + 4;`
 - expressions ask javaScript what is the value, ex. `document.title`
   
-### ✍️Topic 2 -> 
+### ✍️Topic 2 -> arrays
+- arrays let us keep multiple values together in a single colledtion.
+- to declare an array `const arr = [1, 2, 3];`
+- we can store any type of data in array `const arr = [10, "Tarteel", false];`
+- as strings, each element in arrays has an index `arr[0]`
+#### Arrays methods
+
+
 ### ✍️Topic 3 -> 
 ### ✍️Topic 4 -> 
 
