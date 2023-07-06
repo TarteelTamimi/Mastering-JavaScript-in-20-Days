@@ -61,8 +61,6 @@ name[0] = 't';
 console.log(name); //Tarteel
 ```
 
-![note](C:\Users\HP\Desktop\Tarteel\note.png)
-
 ## Challenges
 - [challenge 1](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-data-structures/copy-array-items-using-slice)
 ```javascript
