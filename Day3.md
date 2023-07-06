@@ -34,7 +34,8 @@
 - to declare an array `const arr = [1, 2, 3];`
 - we can store any type of data in array `const arr = [10, "Tarteel", false];`
 - as strings, each element in arrays has an index `arr[0]`
-#### Arrays methods
+#### Arrays methods 
+1. .length: return how many elements in the array `arr.length  //3`
 
 
 ### ✍️Topic 3 -> 
