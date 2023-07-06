@@ -19,7 +19,7 @@
     + var-> functional scope, redecleration✅, reassignment✅, hoisting✅.
     + let-> block scope, redecleration❎, reassignment✅, hoisting❎.
     + const-> block scope, redecleration❎, reassignment❎, hoisting❎.
-> `let a` the value of `a` will be `undefined`.
+> `let a`, the value of `a` will be `undefined`.
 - single equals `=` uses for assignment
 - javaScript is dynamic typing (do not care about the data type of the variable)
 > we use camelCase to name variables in javaScript.
@@ -34,10 +34,30 @@
 ### ✍️Topic 4 -> 
 
 ## Challenges
-- [challenge 1]()
+- [challenge 1](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-data-structures/copy-array-items-using-slice)
 ```javascript
 // my solution
+function forecast(arr) {
+  // Only change code below this line
+  let newarr = arr.slice(2, 4);
 
+  return newarr;
+}
+
+// Only change code above this line
+console.log(forecast(['cold', 'rainy', 'warm', 'sunny', 'cool', 'thunderstorms']));
+```
+
+- [challenge 2](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-data-structures/combine-arrays-with-the-spread-operator)
+```javascript
+// my solution
+function spreadOut() {
+  let fragment = ['to', 'code'];
+  let sentence = ['learning', ...fragment, 'is', 'fun']; // Change this line
+  return sentence;
+}
+
+console.log(spreadOut());
 ```
 
 
