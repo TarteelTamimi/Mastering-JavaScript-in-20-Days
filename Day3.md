@@ -4,7 +4,7 @@
 - [x] Watch 90-minutes of courses-Frontend Masters
 - [x] Solve Challenges-Freecodecamp
 - [x] Solve one problem-Codewars
-- [ ] Summarize what I learned
+- [X] Summarize what I learned
 
 ## Topics
 ### ✍️Topic 1 -> expressions & variables
@@ -34,12 +34,34 @@
 - to declare an array `const arr = [1, 2, 3];`
 - we can store any type of data in array `const arr = [10, "Tarteel", false];`
 - as strings, each element in arrays has an index `arr[0]`
+> `'Tarteel' == ['Tarteel'] //true`
+> `'Tarteel' === ['Tarteel'] //false`
 #### Arrays methods 
-1. .length: return how many elements in the array `arr.length  //3`
+1. Array.length: return how many elements in the array, ex. `arr.length  //3`
+2. Array.includes(element): return whether or not the element exist in the array, ex. `arr.includes(2) //true`
+3. Array.pop(): remove the last element in the array, ex. `arr.pop() //the array arr will be [1, 2]`
+4. Array.push(element): add or append new elenemt in the end of the array, and return the new length of the array, it change the origin array-in place-, ex. `arr.push(5) //the array arr will be [1, 2, 5]`
+5. Array.sort(): sort array elements in alphabatical order
+6. Array.join(string): join array elements using string joiner, ex. `arr.join(" * ") //1 * 2 * 5`
+7. Array.concat(array): join two different arrays together in one new array, ex. `arr.concat([4, 7]) //it will return[1, 2, 5, 4, 7]`
+> if we use `arr.push([4, 7])` instade of `arr.concat([4, 7])` the prevous array will be `[1, 2, 5, [4, 7]]`
 
+#### mutable VS. immutable
+- mutable-> we can change it (e.g. arrays)
+- immutable always stays the same (e.g. strings)
+> in strings we can not change one character using `[ ]`, but we can do it in arrays with elements
+```javascript
+//example
+const family ['father', 'mother', 'child'];
+family[2] = 'children';
+console.log(family); // ['father', 'mother', 'children']
 
-### ✍️Topic 3 -> 
-### ✍️Topic 4 -> 
+let name = 'Tarteel';
+name[0] = 't';
+console.log(name); //Tarteel
+```
+
+![note](C:\Users\HP\Desktop\Tarteel\note.png)
 
 ## Challenges
 - [challenge 1](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-data-structures/copy-array-items-using-slice)
