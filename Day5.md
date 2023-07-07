@@ -123,7 +123,14 @@ myOutfit();
 ```
 
 ## Problem
-- [problem]()
+- [problem](https://www.codewars.com/kata/53da6d8d112bd1a0dc00008b/train/javascript)
 ```javascript
-
+//my solution
+function reverseList(list) {
+    const arr = [];
+    for(let i=0; i<list.length; i++) {
+        arr[i] = list[list.length-1-i]; 
+    }
+    return arr;
+}
 ```
