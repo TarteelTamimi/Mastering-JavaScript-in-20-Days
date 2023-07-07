@@ -32,6 +32,8 @@ sisters: ['Raghad', 'Sara', 'Mayar', 'Hala', 'Loma']
 const people = [p1, p2, p3, ...]
 ```
 
+> `console` is an object, and it has methods like `console.log()`, `console.warn()`, `console.clean()`
+
 
 ## Challenges
 - [challenge 1](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/profile-lookup)
