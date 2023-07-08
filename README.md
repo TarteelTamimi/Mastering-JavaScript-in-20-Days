@@ -35,4 +35,5 @@ In this challenge, I will follow a guiding plan in order to improve my javaScrip
 3. [Day 3](https://github.com/TarteelTamimi/Mastering-JavaScript-in-20-Days/blob/main/Day3.md)
 4. [Day 4](https://github.com/TarteelTamimi/Mastering-JavaScript-in-20-Days/blob/main/Day4.md)
 5. [Day 5](https://github.com/TarteelTamimi/Mastering-JavaScript-in-20-Days/blob/main/Day5.md)
+6. [Day 6](https://github.com/TarteelTamimi/Mastering-JavaScript-in-20-Days/blob/main/Day6.md)
 
