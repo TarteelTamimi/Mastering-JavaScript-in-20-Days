@@ -31,10 +31,18 @@
 
 ```
 ## Problem
-- [problem]()
+- [problem](https://www.codewars.com/kata/5865918c6b569962950002a1/train/javascript)
 ```javascript
 //my solution
-
+function strCount(str, letter){  
+  let sum = 0;
+  for (let i=0; i<str.length; i++) {
+    if (str[i]==letter) {
+      sum ++;
+    }
+  }
+  return sum;
+}
 ```
 
 
