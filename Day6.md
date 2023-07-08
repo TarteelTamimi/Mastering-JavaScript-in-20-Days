@@ -127,7 +127,10 @@ function checkSign(num) {
 - [challenge 2](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/functional-programming/use-the-map-method-to-extract-data-from-an-array)
 ```javascript
 //my solution
-
+const ratings = watchList.map(item => ({
+  title: item["Title"],
+  rating: item["imdbRating"]
+}));
 ```
 
 ## Challenges
