@@ -62,6 +62,56 @@ for (let count=1; count<=10; count++) {
 }
 ```
 - for ... of let us more easily iterate over items in a collection, we can use it for arrays and strings because they are **iterables**.
+```javascript
+for (let i=0; i<arr.length; i++) {
+  console.log(arr[i]);
+}
+```
+is equivalent to 
+```javascript
+for (let x of arr) {
+  console.log(x);
+}
+```
+
+### ✍️Topic 4 -> map & filter
+map and filter are methods also let us process all the items in an array.
+#### map
+it calls a function on each item in an array to create a new array.
+```javascript
+const numbers = [65, 44, 12, 4];
+const newArr = numbers.map(myFunction)
+
+function myFunction(num) {
+  return num * 10;
+}
+```
+#### filter 
+it calls a true/false function on each item and creates a new array with only the items where the function values true.
+```javascript
+const ages = [32, 33, 16, 40];
+const result = ages.filter(checkAdult);
+
+function checkAdult(age) {
+  return age >= 18;
+}
+```
+
+### ✍️Topic 5 -> spread `...`
+it let us take all the items in an array and spread them around.
+- one common use of `...` is to concat two arrays in one new one.
+```javascript
+let arr1 = [1,2,3];
+let arr2 = [3,4,5];
+let arr3 = [...arr1, ...arr2];
+```
+equivalent to 
+```javascript
+let arr1 = [1,2,3];
+let arr2 = [3,4,5];
+let arr3 = arr1.concat(arr2);
+```
+
 
 
 ## Challenges
