@@ -137,7 +137,18 @@ const ratings = watchList.map(item => ({
 - [challenge 3](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/functional-programming/use-the-filter-method-to-extract-data-from-an-array)
 ```javascript
 //my solution
-
+const filteredList = watchList
+  .filter(x => {
+    // return true it will keep the item
+    // return false it will reject the item
+    return parseFloat(x.imdbRating) >= 8.0;
+  })
+  .map(s => {
+    return {
+      title: s.title,
+      rating: s.imdbRating
+    };
+  });
 ```
 ## Problem
 - [problem](https://www.codewars.com/kata/5865918c6b569962950002a1/train/javascript)
