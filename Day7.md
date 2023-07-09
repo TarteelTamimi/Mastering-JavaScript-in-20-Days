@@ -8,7 +8,7 @@
 
 ## Topics
 ### ✍️Topic 1 -> asynchronuous coding
-`console.log('Hello')` is vary quick, and javaScript can usually run straight through our program "synchronously" (e.g. one thing at a time)
+`console.log('Hello')` is vary quick, and javaScript can usually run straight through our program "synchronously" (e.g. one thing at a time), so we need way in javaScropt that allows us to do multiple taskes together witch called **asynchronous**. 
 #### fetching data
 `fetch()` is a built-in function witch let us use javaScript to load data from APIs, ex. `fetch('https://getemoji.com/');`, and it returns a **promise**.
 > note -> JSON stands for javaScript object notation.
