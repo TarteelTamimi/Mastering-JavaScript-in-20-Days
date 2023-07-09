@@ -74,6 +74,16 @@ for (let x of arr) {
 }
 ```
 
+#### while loop
+while loop let us run a chunk of code over & over if a condition is true.
+```javascript
+//example
+while (4>1) {
+  console.log('Hiii');
+}
+```
+
+
 ### ✍️Topic 4 -> map & filter
 map and filter are methods also let us process all the items in an array.
 #### map
