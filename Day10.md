@@ -58,7 +58,13 @@ this is because the backpack for `myNewFunction` and the backpack for `anotherFu
 - [challenge](https://github.com/orjwan-alrajaby/gsg-expressjs-backend-training-2023/blob/main/learning-sprint-1/week2-day2-tasks/tasks.md)
 ```javascript
 //chalenge 1
-
+function createCounter (initValue) {
+    let counter = initValue;
+    function increamentCounter() {
+        counter++;
+    }
+    return increamentCounter;
+}
 }
 ```
 
