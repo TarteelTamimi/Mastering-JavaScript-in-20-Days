@@ -2,7 +2,7 @@
 
 ## To-Do List for today
 - [x] Watch 90-minutes of courses-Frontend Masters
-- [x] There is no chalenges for today-Freecodecamp
+- [ ] Solve Challenges-Freecodecamp
 - [x] Solve one problem-Codewars
 - [x] Summarize what I learned
 
@@ -23,11 +23,33 @@ promises promise us that it will give us the data we want, but it does not hava 
 ### ✍️Topic 2 -> 
 ### ✍️Topic 3 ->
 
-## Problem
-- [problem]()
+## Challenges
+- [challenge ](https://github.com/orjwan-alrajaby/gsg-expressjs-backend-training-2023/blob/main/learning-sprint-1/week1-day5-task/task.md)
 ```javascript
 //my solution
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Alive Character List</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <h1>Alive Character List</h1>
+  <ul id="characterList"></ul>
 
+  <script src="./script.js"></script>
+</body>
+</html>
+}
+```
+
+## Problem
+- [problem](https://www.codewars.com/kata/57a0556c7cb1f31ab3000ad7/train/javascript)
+```javascript
+//my solution
+function makeUpperCase(str) {
+  return str.toUpperCase();
+}
 ```
 
 
