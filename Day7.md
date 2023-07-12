@@ -19,9 +19,28 @@ promises promise us that it will give us the data we want, but it does not hava 
 2. fulfilled (resolved): got the value successfully.
 3. rejected: could not get the value.
 
+#### await 
+await let us tell javaScript to stop and wait for an asynchronous operation to finish.
+```javascript
+//example
+let response = await fetch("URL")
+// it will wait for it to resolve before continuing with our code.
+```
+- `response.json()` to parse the body of response as a JSON object, and will return another promise, so we will use await again.
+```javascript
+let response = await fetch("URL");
+let body = await response.json();
+```
 
-### ✍️Topic 2 -> 
-### ✍️Topic 3 ->
+### ✍️Topic 2 -> Destructing 
+destructing is a fancy way of declaring multiple variables at one, by "extracting" values from an object with their properties.
+```javascript
+const spices = {anme: "Emma", nickname: "Baby"};
+let {name, nickname} = spices;
+```
+and we can apply it on arrays.
+
+- the order does not matter in objects destructuring, but it matter in array destructuring.
 
 ## Challenges
 - [challenge ](https://github.com/orjwan-alrajaby/gsg-expressjs-backend-training-2023/blob/main/learning-sprint-1/week1-day5-task/task.md)
