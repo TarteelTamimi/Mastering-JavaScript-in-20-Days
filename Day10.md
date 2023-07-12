@@ -7,9 +7,9 @@
 - [x] Summarize what I learned
 
 ## Topics
-### ✍️Topic 1 -> 
-### ✍️Topic 2 -> 
-### ✍️Topic 3 -> 
+### ✍️Topic 1 -> Closures
+
+
 
 ## Challenges
 - [challenge](https://github.com/orjwan-alrajaby/gsg-expressjs-backend-training-2023/blob/main/learning-sprint-1/week2-day2-tasks/tasks.md)
