@@ -2,7 +2,7 @@
 
 ## To-Do List for today
 - [x] Watch 90-minutes of courses-Frontend Masters
-- [x] Solve Challenges-Freecodecamp
+- [ ] Solve Challenges-Freecodecamp
 - [x] Solve one problem-Codewars
 - [x] Summarize what I learned
 
@@ -74,6 +74,14 @@ function urlSlug(title) {
 
 // Only change code above this line
 console.log(urlSlug("A Mind Needs Books Like A Sword Needs A Whetstone")) 
+```
+
+3. [challenge 3](https://github.com/orjwan-alrajaby/gsg-expressjs-backend-training-2023/blob/main/learning-sprint-1/week2-day1-tasks/tasks.md)
+```javascript
+//Q1 solution
+
+//Q2 solution
+
 ```
 
 
