@@ -62,28 +62,36 @@ function createCounter (initValue) {
     let counter = initValue;
     function increamentCounter() {
         counter++;
+        return counter;
     }
     return increamentCounter;
 }
+```
+
+```javascript
+//challenge 2
+function calculateAverage (arr) {
+    let sum = arr.reduce((a,b) => a + b, 0)
+    function avg() {
+        return sum / arr.length;
+    }
+    return avg;
 }
 ```
 
 ```javascript
-//chalenge 2
-
+//challenge 3
+function powerOf(n) {
+    function calculatePower(x) {
+        return Math.pow(n, x);
+    }
+    return calculatePower;
 }
 ```
 
 ```javascript
-//chalenge 3
+//challenge 4
 
-}
-```
-
-```javascript
-//chalenge 4
-
-}
 ```
 
 ## Problem
