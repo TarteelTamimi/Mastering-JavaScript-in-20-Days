@@ -40,5 +40,7 @@ In this challenge, I will follow a guiding plan in order to improve my javaScrip
 8. [Day 8](https://github.com/TarteelTamimi/Mastering-JavaScript-in-20-Days/blob/main/Day8.md)
 9. [Day 9](https://github.com/TarteelTamimi/Mastering-JavaScript-in-20-Days/blob/main/Day9.md)
 10. [Day 10](https://github.com/TarteelTamimi/Mastering-JavaScript-in-20-Days/blob/main/Day10.md)
-10. [Day 11](https://github.com/TarteelTamimi/Mastering-JavaScript-in-20-Days/blob/main/Day11.md)
+11. [Day 11](https://github.com/TarteelTamimi/Mastering-JavaScript-in-20-Days/blob/main/Day11.md)
+12. [Day 12](https://github.com/TarteelTamimi/Mastering-JavaScript-in-20-Days/blob/main/Day12.md)
+13. [Day 13]() //break
 
