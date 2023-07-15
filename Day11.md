@@ -64,8 +64,34 @@ By using the event loop, JavaScript can handle multiple asynchronous operations 
 ### ✍️Topic 1 -> Promises
 it is an ES6 solution for asunchronous programming in javaScript
 - it is initiate backgroung web browser
-- work and returm sa placeholder object (promise) immediately in javaScript
+- work and return a placeholder object (promise) immediately in javaScript
 
+```javascript
+function display (data) {
+  console.log(data);
+}
+
+const futureData = fetch('URL');
+futureData.then(display);
+console.log('Me first');
+```
+#### `.then()`
+`then()` method is used in combination with promises to handle asynchronous operations and process the results or errors returned by those operations. The `then()` method is part of the Promise API and is used to specify what should happen after a promise is fulfilled (resolved) with a value or rejected with an error.
+
+The `then()` method takes two callback functions as arguments: one for the success case (called when the promise is fulfilled) and one for the failure case (called when the promise is rejected).
+
+#### Microtask queue
+The microtask queue is where microtasks are queued for execution. Microtasks are tasks that need to be executed asynchronously but have a higher priority than regular tasks in the event loop. They are typically used for handling promises and other asynchronous operations that need to be resolved as soon as possible.
+
+👎Problems
+- 99% of developers have no idea how they’re working under the hood
+- Debugging becomes super-hard as a result
+- Developers fail technical interviews
+
+  
+👍Benefits
+- Cleaner readable style with pseudo-synchronous style code
+- Nice error handling process
 
 
 ## Challenges
