@@ -119,6 +119,12 @@ let flyMixin = function(obj) {
   }
 };
 ```
+- immediately invoked function expression or (IIFE) --> execute a function as soon as it is declared.
+```javascript
+(function () {
+  console.log("Chirp, chirp!");
+})();
+```
 
 
 
