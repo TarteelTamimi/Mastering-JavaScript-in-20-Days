@@ -59,14 +59,73 @@ console.log(person.hasOwnProperty("name")); // Output: true
 console.log(person.hasOwnProperty("age")); // Output: true
 console.log(person.hasOwnProperty("toString")); // Output: false (inherited from Object.prototype)
 ```
-### ✍️Topic 3 -> 
+### ✍️Topic 3 -> `this` keyword
+
+the `this` keyword is a special keyword that refers to the context in which a function is executed or an object on which a method is invoked. The value of this is determined dynamically based on how a function is called or a method is accessed.
+
+The behavior of `this` can vary depending on the context:
+
+1. Global scope:
+
+When this is used in the global scope (outside of any function or method), it refers to the global object. In a browser environment, the global object is typically window.
+
+2. Function context:
+
+When this is used within a regular function (not an arrow function), its value is determined by how the function is called.
+- If the function is called as a standalone function, this refers to the global object (window in a browser).
+- If the function is called as a method of an object, this refers to the object on which the method is invoked.
+- If the function is called with the new keyword (constructor invocation), this refers to the newly created object.
+- If the function is called using the call() or apply() methods, this is explicitly set to the first argument passed to call() or apply().
+3. Method context:
+
+When this is used within an object method, it refers to the object itself—the object on which the method is invoked. The value of this is determined at the time the method is called.
+
+4. Event handlers:
+
+When this is used within an event handler function, it typically refers to the element on which the event occurred.
+
+5. Arrow functions:
+
+In arrow functions, the behavior of the `this` keyword is different compared to regular functions. Arrow functions do not have their own `this` context, and instead, they inherit the `this` value from the surrounding (lexical) scope in which they are defined.
+
+
+### ✍️Topic 3 -> classes
+the `class` keyword is used to define classes, which are a syntactical sugar over the existing prototype-based inheritance model. The `class` syntax provides a more familiar and concise way to create objects and define their behavior.
+
+```javascript
+class Person {
+  constructor(name, age) {
+    this.name = name;
+    this.age = age;
+  }
+
+  sayHello() {
+    console.log("Hello, my name is " + this.name);
+  }
+}
+
+const john = new Person("John", 30);
+console.log(john.name); // Output: John
+console.log(john.age); // Output: 30
+john.sayHello(); // Output: Hello, my name is John
+```
+
+
 
 
 ## Challenges
 Challenges delivered on this [sheet](https://docs.google.com/spreadsheets/d/1JOo_Wqq1tCmrdUjaIRrl-olY0t6SV9RoUXUPoWPvF0Y/edit#gid=0)
 
 ## Problem
-- [problem]()
+- [problem](https://www.codewars.com/kata/55a996e0e8520afab9000055/train/javascript)
 ```javascript
-
+function cookie(x) {
+    if (typeof(x) === typeof('hhh')) {
+        return 'Who ate the last cookie? It was Zach!'
+    } else if (typeof(x) === typeof(1)) {
+        return 'Who ate the last cookie? It was Monica!'
+    } else {
+        return 'Who ate the last cookie? It was the dog!'
+    }
+}
 ```
