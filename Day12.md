@@ -110,6 +110,16 @@ console.log(john.age); // Output: 30
 john.sayHello(); // Output: Hello, my name is John
 ```
 
+- behavior is shared through inheritance. However, there are cases when inheritance is not the best solution. Inheritance does not work well for unrelated objects like Bird and Airplane. They can both fly, but a Bird is not a type of Airplane and vice versa. For unrelated objects, it's better to use mixins. A mixin allows other objects to use a collection of functions.
+
+```javascript
+let flyMixin = function(obj) {
+  obj.fly = function() {
+    console.log("Flying, wooosh!");
+  }
+};
+```
+
 
 
 
