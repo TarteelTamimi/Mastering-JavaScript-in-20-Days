@@ -48,7 +48,9 @@ console.log(typeof "Hello"); // Output: "string"
 `Number.isNaN("Tarteel") //false`
 
 > note -> undefined: there is a variable but at the moment it has no value.
+
 > undeclared: it is never been created.
+
 > uninitialized (TDZ): variables declared with `let` and `const` are not yet initialized and cannot be accessed.
 
 
