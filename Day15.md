@@ -47,7 +47,9 @@ console.log(typeof "Hello"); // Output: "string"
 `isNaN("Tarteel") //true`
 `Number.isNaN("Tarteel") //false`
 
-> note -> undefined: there is a variable but at the moment it has no value.
+> note ->
+
+> undefined: there is a variable but at the moment it has no value.
 
 > undeclared: it is never been created.
 
